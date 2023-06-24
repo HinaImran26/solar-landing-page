@@ -1,0 +1,40 @@
+.container-fluid {
+    background-color: #f8f8f8;
+}
+
+.card {
+    width: 14.1875rem;
+    height: 14.375rem;
+    /* background-color: yellowgreen; */
+    position: relative;
+    border: none;
+    padding: 10px;
+}
+
+.card img {
+    height: 16.375rem;
+    width: 18.1875rem;
+    background: none;
+    position: absolute;
+    z-index: 0;
+    top: -17px;
+    right: -48px;
+}
+
+.card i {
+    font-size: 2.875rem;
+    color: var(--green-color)
+}
+
+.content h2 {
+    font-size: 1rem;
+    color: var(--black-color);
+    font-weight: 500;
+}
+
+.content p {
+    color: #666;
+    text-align: center;
+    font-size: 0.875rem;
+    line-height: 126.523%;
+}

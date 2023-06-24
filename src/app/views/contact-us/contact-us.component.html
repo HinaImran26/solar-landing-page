@@ -1,0 +1,36 @@
+<div class="container-fluid my-5 p-5">
+    <div class="row d-flex justify-content-center">
+        <h2 class="text-center">CONTATTACI</h2>
+        <img src="../../../assets/Vector 10.png" alt=""
+            style="width: 7.46369rem; margin-top: 1.87px; margin-bottom: 1.63rem;">
+    </div>
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-6 d-flex justify-content-end top">
+            <div class="card details-card d-flex" style="gap: 1.5rem;">
+                <div *ngFor="let item of array1" class="d-flex align-items-center" style="gap:1.2rem">
+                    <i class={{item.icon}}></i>
+                    <span>{{item.content}}</span>
+                </div>
+                <hr style="border-top: 1px solid grey;" class="m-0">
+                <span class="TF" style="font-size: 1rem; line-height: 133.523%; color: var(--black-color);">We Will get back to you
+                    within
+                    24 hours. Or Call us Now</span>
+            </div>
+
+        </div>
+        <div class="col-lg-8 col-md-6 col-sm-6 d-flex justify-content-center">
+            <div class="card form-card d-flex justify-content-evenly">
+                <div class="name d-flex justify-content-center" style="gap: 2rem;">
+                    <input type="text" style="width: 48%;" placeholder="First Name">
+                    <input type="text" style="width: 48%;" placeholder="Last Name">
+                </div>
+
+                <input type="email" placeholder="Email">
+                <input type="text" style="height: 7.1875rem;" placeholder="Message">
+                <div class="w-100 text-end send-btn">
+                    <button>SEND</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

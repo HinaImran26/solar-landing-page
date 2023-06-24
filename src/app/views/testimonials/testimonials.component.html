@@ -1,0 +1,39 @@
+<div class="container-fluid px-5">
+    <div class="row upper-container d-flex justify-content-center mb-5">
+        <!-- <img src="../../../assets/Frame.png" alt=""> -->
+        <h1 class="text-center">
+            Chi Siamo
+        </h1>
+        <img src="../../../assets/Vector 10.png" alt=""
+            style="width: 5.1295rem; margin-top: 1.87px; margin-bottom: 1.63rem;">
+        <p class="intro">Solar Innovatio è una PMI innovativa italiana specializzata nella progettazione e realizzazione
+            di sistemi
+            fotovoltaici intelligenti. Solar Innovatio unisce alla decennale esperienza maturata nel panorama italiano
+            nell'ambito delle soluzioni fotovoltaiche un approccio ingegneristico, innovativo, digitale alla principale
+            fonte di energia rinnovabile.</p>
+    </div>
+
+    <div class="row lower-container d-flex justify-content-center">
+        <div class="card d-flex align-items-center justify-content-center" *ngFor="let item of reviews">
+            <div class="image-container">
+                <img src={{item.image}} class="h-100 w-100" alt="">
+            </div>
+            <div class="card-content mt-5">
+                <h3 class="text-center">{{item.name}}</h3>
+                <p class="m-0">{{item.comment}}</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row last-container">
+        <div class="d-flex justify-content-center align-items-center flex-column">
+            <p class="text-center">Non sviluppiamo pannelli fotovoltaici. Il pannello è solo una componente di una
+                soluzione ingegneristica
+                più completa che comprende sensoristiche avanzate e l'integrazione con i sistemi domotici di casa.</p>
+            <span style="font-size: 1.125rem;
+            color: var(--green-color);
+            font-weight: 500;
+            font-weight: 600;">- Cristian Testoni -</span>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,41 @@
+<div class="container-fluid p-0">
+    <div class="pattern h-100">
+        <img class="bg-pattern" src="../../../assets/bg-pattern.png" alt="">
+    </div>
+    <div class="row p-5">
+        <div class="col-lg-3 col-md-3 section-1 d-flex flex-column justify-content-center">
+            <img src="../../../assets/logo-white.png" alt="" style="width: 6.0625rem;
+            height: 2.875rem;">
+            <p>Leo dui fermentum tristique urna tellus eget amet aliquam. Id vitae orci maecenas tortor odio Leo dui
+                fermentum tristique urna tellus eget amet aliquam.</p>
+            <div class="d-flex justify-content-between flex-wrap frey" style="width:12rem">
+                <img src="../../../assets/frey.png" alt="" class="width: 4.871rem;
+                    height: 2.71625rem;" *ngFor="let item of [1,2,3,4]">
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-4 section-2 d-flex justify-content-end flex-column">
+            <h5>Quick Links</h5>
+            <ul class="p-0">
+                <li *ngFor="let item of quickLinks">{{item}}</li>
+            </ul>
+        </div>
+        <div class="col-lg-3 col-md-3  col-4 section-3 d-flex justify-content-end flex-column" style="margin-bottom: 13px;">
+            <h5>Useful Links</h5>
+            <ul class="p-0">
+                <li *ngFor="let item of usefulLinks">{{item}}</li>
+            </ul>
+            <h5>Documents</h5>
+            <ul class="p-0">
+                <li style="text-decoration: underline;">Linked Here</li>
+            </ul>
+        </div>
+        <div class="col-lg-3 col-md-3 col-4  section-4 d-flex justify-content-center flex-column" style="margin-top: 35px;">
+            <h5>Contact Us</h5>
+            <div *ngFor="let item of array1" class="d-flex align-items-start" style="gap:1.2rem">
+                <i class={{item.icon}}></i>
+                <span class="item-text">{{item.content}}</span>
+            </div>
+        </div>
+
+    </div>
+</div>

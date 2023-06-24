@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+html{
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    overflow-x: hidden;
+
+}
+
+:root{
+    --green-color: #86BE3F;
+    --grey-color: #F3EDED;
+    --white-color: #fff;
+    --dark-grey-color: #8A8888;
+    --black-color:#363636;
+   
+    
+}

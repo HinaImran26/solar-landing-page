@@ -1,0 +1,48 @@
+.main-banner-container {
+    /* width: 90rem; */
+    height: 43.625rem;
+    background-color: aquamarine;
+    overflow-x: hidden;
+}
+
+@media(max-width:1038px){
+.main-heading h3{
+    width: auto !important;
+}
+}
+
+@media(max-width:686px){
+    .main-heading h2{
+        /* width: auto !important; */
+        text-align: center !important;
+    }
+    }
+    
+
+
+
+
+.main-heading h2 , .main-heading h3 {
+color: var(--white-color);
+}
+
+.main-heading h2{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.main-heading h3{
+    width: 59.1875rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 141.023%;
+}
+
+.main-banner-container img{
+    position: relative;
+}
+
+.main-banner-container .main-heading{
+    position: absolute;
+}

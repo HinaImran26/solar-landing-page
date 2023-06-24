@@ -1,0 +1,96 @@
+hr {
+    width: 7.46369rem;
+    border-top: 3px solid var(--green-color);
+}
+
+.intro {
+    color: var(--black-color);
+    text-align: center;
+    font-size: 1.0625rem;
+    line-height: 155.023%;
+}
+
+h1 {
+    color: var(--black-color);
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+.upper-container {
+    padding: 39.09px;
+}
+
+.card {
+    width: 21.875rem;
+    height: 17.3125rem;
+    background-color: #F8F8F8;
+    border: none;
+    border-radius: 6px;
+    position: relative;
+}
+
+.image-container {
+    width: 11.4375rem;
+    height: 10.875rem;
+    border-radius: 6px;
+    background-color: brown;
+    overflow: hidden;
+    position: absolute;
+    top: -90px;
+}
+
+.card-content h3 {
+    color: var(--black-color);
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.card-content p {
+    width: 20.0625rem;
+    height: 5.875rem;
+    text-align: center;
+    font-size: 0.875rem;
+    line-height: 1.21875rem;
+}
+
+.lower-container {
+    gap: 1.97rem;
+
+}
+
+@media(max-width:1182px) {
+    .lower-container {
+        gap: 7rem;
+    }
+
+    .intro {
+        text-align: justify;
+    }
+
+}
+
+@media(max-width:820px) {
+    
+.last-container p {
+    width: auto !important;
+    margin-top: 5px;
+}
+    }
+
+
+
+.last-container p {
+    width: 49.375rem;
+    height: 5.25rem;
+    color: #363636;
+    text-align: center;
+    font-size: 1.3125rem;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 1.875rem;
+
+}
+
+.last-container {
+    margin-top: 3.31rem;
+}
